@@ -41,6 +41,15 @@ body {
   border-left: 1px solid black;
   border-bottom: 10px solid darkgrey;
 }
+.switch-on {
+  height: 90px;
+  width: 60px;
+  background: linear-gradient(darkgrey, grey);
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  border-top: 10px solid rgb(192, 191, 191);
+}
 
 .bulb-container {
   height: 100vh;
@@ -54,4 +63,50 @@ body {
   height: 30%;
   width: 12px;
   background-color: grey;
+}
+
+.wire-connection {
+  height: 15px;
+  width: 15px;
+  background-color: dimgrey;
+  margin: 0 auto;
+  border-radius: 10px 10px 0 0;
+  margin-top: -5px;
+}
+
+.socket-top {
+  height: 20px;
+  width: 40px;
+  background-color: grey;
+  border-radius: 15px 15px 0 0;
+  margin-top: -5px;
+}
+.socket-bottom {
+  height: 30px;
+  width: 40px;
+  background-color: grey;
+  border-top: 1px solid black;
+}
+
+.socket-back {
+  height: 20px;
+  width: 40px;
+  background-color: grey;
+  border-radius: 50%;
+  margin-top: -12px;
+  opacity: 0.5;
+}
+.bulb-top {
+  height: 20px;
+  width: 35px;
+  background-color: lightgrey;
+  margin-top: -8px;
+}
+
+.bulb-bottom {
+  height: 100px;
+  width: 100px;
+  background-color: lightgrey;
+  border-radius: 50%;
+  margin-top: -6px;
 }
