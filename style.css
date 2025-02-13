@@ -104,9 +104,14 @@ body {
 }
 
 .bulb-bottom {
-  height: 100px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   background-color: lightgrey;
   border-radius: 50%;
   margin-top: -6px;
+}
+
+.bulbOn {
+  background-color: rgb(245, 255, 133);
+  box-shadow: 0px 0px 40px 5px rgb(255, 255, 108);
 }
